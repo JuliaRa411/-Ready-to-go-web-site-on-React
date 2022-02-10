@@ -1,38 +1,203 @@
-.App {
+body{
+  background-color: rgba(10, 9, 9, 0.048);
+  margin: 0;
+}
+  
+ .banner{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border:none;
+    position: relative;
+    overflow: hidden;
+    margin-top: 12px;
+   
+      }
+ 
+  .navigation{
+    background: transparent;
+    border: none;
+    position: absolute;
+    z-index: 5;
+  
+  }
+   
+   .btn2{
+    position: absolute;
+    right:230px;
+         } 
+ 
+
+  .btn1{
+    position: relative;
+    left: 70px;
+   
+  } 
+
+  nav{
+    display: flex;
+    justify-content:space-around;
+    padding: 3px;
+    background: rgb(7, 7, 7);
+  }
+   
+  .link{
+    padding: 10px 40px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montaga', serif;
+    font-size: 20px;
+  }
+  .footer{
+    display: flex;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    left: 0px;
+    bottom: 0px;
+     
+   }
+
+  p{
+    
+    font-family: 'Montaga', serif;
+    font-size: 15px;
+    align-items: flex-start;
+    margin-top: 5px;
+   
+  }
+ h2{
+  color: #991919;
+  font-family: 'Montaga', serif;
+  font-size: 18px; 
+  text-transform: uppercase;
+  
+
+ }
+   h4{
+    color: white;
+    font-family: 'Montaga', serif;
+    font-size: 15px;
+    align-items: flex-start;
+    margin-top: 5px;
+   }
+   
+  .icons{
+    border-radius: 5%;
+    background-color: rgba(243, 229, 229, 0.808);
+    
+    margin: -7px 5px  ;
+    
+     }
+     .icons:hover{
+      background-color: rgb(237, 243, 235)
+     }
+    .move{
+    display: block;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: auto;
+    }
+
+    .contacts{
+     background-color: #991919;
+     padding: 15px;
+     border: none;
+     color: white;
+     text-transform: uppercase;
+     font-family: 'Montaga', serif;
+     font-size: 20px;
+    }
+    ul{
+      font-family: 'Montaga', serif;
+      text-align:start;
+      flex-direction: column;
+     margin-left: 250px;
+   
+      
+    
+    }
+.container{
+  margin-left: 50px;
   text-align: center;
+  flex-wrap: wrap;
+ 
 }
+    .schedule{
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: auto auto ;
+   
+    }
+      
+    .special{
+      margin-bottom: auto;
+      margin-top: -200px;
+      display: block;
+      flex-direction: column;
+      font-family: 'Montaga', serif;
+     
+    }
+ 
+    .deals{
+      display: grid;
+      grid-template-columns: auto auto auto ;
+      justify-content: center;
+    }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    .container1{
+      flex-wrap: wrap;
+      margin-left: 50px;
+      text-align: center;
+      margin: 30px;
+     
+    }
+    .border{
+      background-color: #991919;
+      padding: 20px;
+      width: 100%;
+      border: none;
+      color: white;
+      font-family: 'Montaga', serif;
+      font-size: 20px;
+      
+    }
+    .border2{
+      margin-top: -10px;
+      padding: 5px;
+      width:30%;
+      border: none;
+      color: #991919;
+      font-family: 'Montaga', serif;
+      font-size: 20px;
+          }
+          
+    .hide{
+      display: none;
+    }
+
+    .border2:hover + .hide {
+      display: block;
+      color: red;
+        }
+
+    .products {
+    display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+         }
+
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+} 
+.name{
+  text-align: center;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text{
+  margin-top: -50px;
 }
