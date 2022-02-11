@@ -20,7 +20,7 @@ export const data = [
      {
     id:3,
     name:"Toyota Camry",
-    image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/CARS/CCAR.doi.352.high.imageSmallThreeQuarterNodePath.png/1611777286679.png",
+    image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/CARS/FCAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1618262666996.png",
     searchTerm:"cars",
     text: "Details: Automatic, 5 People, 4 Bags",
     features: "Features: Bluetooth, Cruise Control, AM/FM, Stereo Radio, Automatic, Air Conditioning"
@@ -103,25 +103,90 @@ export const data = [
     features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning"
 
             },
-            
+                      
+{ 
+    id:12 ,
+    name: "Jeep Wrangler 4 Door Rental",
+    image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/SUVS/FJAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1543606103567.png",
+    searchTerm:"suv",
+    text:"Details: Automatic, 5 People, 5 Bags",
+    features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning"
+
+            },
             { 
-                id:12 ,
+                id:13 ,
                 name: "Chevy Colorado ",
                 image:" https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/TRUCKS/SPAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1535121223938.png",
-                searchTerm:"Trucks ",
+                searchTerm:"Trucks",
                 text:"Details: Automatic, 4 People, 3 Bags",
                 features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning"
             
                         },
                         
                         { 
-                            id:13 ,
+                            id:14 ,
                             name: "Chevrolet Siverado 1500 Crew Cab ",
                             image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/TRUCKS/PPAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1618262983986.png",
-                            searchTerm:"Trucks ",
+                            searchTerm:"Trucks",
                             text:"Details: Automatic, 5 People, 4 Bags",
                             features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning"
                         
                                     },
+{ 
+    id:15 ,
+    name: " 7 Passenger Minivan Rental",
+    image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/VANS/MVAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1574880395246.png",
+    searchTerm:"Vans",
+    text:"Details: Automatic, 7 People, 5 Bags",
+    features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning"
+
+            },
+       
+        { 
+            id:16 ,
+            name: "Ford Transit Cargo or similar",
+            image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/VANS/SKAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1554912447812.png",
+            searchTerm:"Vans",
+            text:"Details: Automatic, 2 People, 0 Bags",
+            features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning"
+        
+                    },
+              
+                { 
+                    id:17 ,
+                    name: "Cadillac XTS ",
+                    image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/CARS/LCAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1543605919399.png  ",
+                    searchTerm:"Luxury Cars",
+                    text:"Details: Automatic, 5 People, 4 Bags",
+                    features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning,Leather Interior"
+                
+                            },
+                            { 
+                                id:18 ,
+                                name: "Chevrolet Impala ",
+                                image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/CARS/PXAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1618262777268.png",
+                                searchTerm:"Luxury Cars",
+                                text:"Details: Automatic, 5 People, 5 Bags",
+                                features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning,Leather Interior"
+                            
+                                        },
+                                        { 
+                                            id:19 ,
+                                            name: "Ford Mustang",
+                                            image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/CARS/STAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1543605919377.png",
+                                            searchTerm:"Luxury Cars",
+                                            text:"Details: Automatic, 4 People, 2 Bags",
+                                            features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning,Leather Interior"
+                                        
+                                                    },
+                                                    { 
+                                                      id:20 ,
+                                                       name: "Nissan Maxima",
+                                                        image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/CARS/PCAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1574880326763.png",
+                                                        searchTerm:"Luxury Cars",
+                                                        text:"Details: Automatic, 5 People, 4 Bags",
+                                                        features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning,Leather Interior"
+                                                    
+                                                                },
 
 ]    

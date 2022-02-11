@@ -37,9 +37,11 @@ body{
   nav{
     display: flex;
     justify-content:space-around;
+    flex-flow: row wrap;
     padding: 3px;
     background: rgb(7, 7, 7);
     width: 100%;
+    margin: 0;
    
   }
    
@@ -53,6 +55,8 @@ body{
   }
   .footer{
     display: flex;
+    flex-flow: row wrap;
+    
     position: fixed;
     background-color: black;
     width: 100%;
@@ -99,6 +103,7 @@ body{
      }
     .move{
     display: block;
+    flex-flow: row wrap;
     flex-direction: row;
     align-items: flex-end;
     margin-left: auto;
@@ -126,13 +131,13 @@ body{
   margin-left: 50px;
   text-align: center;
   flex-wrap: wrap;
- 
+  flex-flow: row wrap;
 }
     .schedule{
       margin-top: 50px;
       display: grid;
       grid-template-columns: auto auto ;
-   
+      flex-flow: row wrap;
     }
       
     .special{
@@ -141,6 +146,7 @@ body{
       display: block;
       flex-direction: column;
       font-family: 'Montaga', serif;
+      flex-flow: row wrap;
      
     }
  
@@ -153,6 +159,7 @@ body{
 
     .container1{
       flex-wrap: wrap;
+      flex-flow: row wrap;
       margin-left: 50px;
       text-align: center;
       margin: 30px;
@@ -191,6 +198,7 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-flow: row wrap;
          }
 
 .product-card {
@@ -228,7 +236,7 @@ body{
 .group{
   
   display:flex;
-  justify-content: center;
+
 
 }
 .change{

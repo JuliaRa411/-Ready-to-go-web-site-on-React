@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 
 import './App.css';
-import BeforeJourney from "./BeforeJourney.js";
+
 import Deals from "./Deals.js";
 import Contacts from "./Contacts.js";
 import Vehicles from "./Vehicles.js";
@@ -28,7 +28,7 @@ function App() {
 <Link  to ="/" className="link"> Home</Link>
 <Link  to ="/vehicles" className="link"> Vehicles</Link>
 <Link  to ="/deals" className="link"> Deals</Link>
-<Link  to ="/BeforeJourney" className="link"> Before your Journey</Link>
+
 <Link  to ="/contacts" className="link"> Contacts</Link>
  
 </nav>
@@ -36,7 +36,7 @@ function App() {
 <Routes>
 
 <Route  path = "/" element = {<Logic/>}/>
-<Route path="/BeforeJourney"element ={<BeforeJourney/>} />  
+
 <Route path="/deals"  element ={<Deals/>} />  
 <Route path="/contacts"  element ={<Contacts/>} />  
 <Route path="/vehicles"  element ={<Vehicles/>} />  
