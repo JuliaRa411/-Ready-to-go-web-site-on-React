@@ -17,10 +17,12 @@ import Footer from "./Footer.js";
  
  
  
+ 
+ 
 function App() {
  
   return <Router>
- 
+
  
 <nav>
 <Link  to ="/" className="link"> Home</Link>
@@ -28,10 +30,11 @@ function App() {
 <Link  to ="/deals" className="link"> Deals</Link>
 <Link  to ="/BeforeJourney" className="link"> Before your Journey</Link>
 <Link  to ="/contacts" className="link"> Contacts</Link>
-
+ 
 </nav>
 
 <Routes>
+
 <Route  path = "/" element = {<Logic/>}/>
 <Route path="/BeforeJourney"element ={<BeforeJourney/>} />  
 <Route path="/deals"  element ={<Deals/>} />  

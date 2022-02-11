@@ -4,7 +4,7 @@ export const data = [
     name: "Volkswagen Jetta",
     image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/CARS/SCAR.doi.352.high.imageSmallThreeQuarterNodePath.png/1544210775124.png",
     searchTerm:"cars",
-    text:"Details: Automatic, 5 People, 4 Bags",
+    text:  " Details:  Automatic, 5 People, 4 Bags",
     features:"Features: Bluetooth, Cruise Control, AM/FM, Stereo Radio, Automatic, Air Conditioning"
     },
     
