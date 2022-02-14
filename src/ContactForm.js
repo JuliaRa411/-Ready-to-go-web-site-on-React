@@ -1,27 +1,23 @@
-import Swal from 'sweetalert2'
 import React from 'react';
-
 import { useForm, ValidationError } from '@formspree/react';
-
 function ContactForm() {
-  const [state, handleSubmit] = useForm("mbjwgnbe");
+  const [state, handleSubmit] = useForm("xayvonje");
   if (state.succeeded) {
-      return <p>Thank you for your order!</p>;
-
-    }
-   
-   
-  return (
   
+      return <p className='contactForm'>Thank for your order!</p>;
+  
+  }
+  return (
       <form onSubmit={handleSubmit}>
-      <label htmlFor="email">
-        Email  
-      </label>
-      <input
+
+<div className="submit">    
+        <input
         id="email"
         type="email" 
         name="email"
       />
+      </div>
+      <div className="submit">
       <ValidationError 
         prefix="Email" 
         field="email"
@@ -30,20 +26,24 @@ function ContactForm() {
       <textarea
         id="message"
         name="message"
-        type="text" 
       />
+      </div>
+      <div > 
       <ValidationError 
-        
+        prefix="Message" 
         field="message"
         errors={state.errors}
       />
-  <div> 
-      <button type="submit" disabled={state.submitting} className="bookCar"  >  
-       Book
-      </button>
       </div>
-    </form>
+    
+ 
+   <div className="submit">
   
+  <button className="bookSubmit">  Book</button>
+
+  </div>
+     
+    </form>
   );
 }
 

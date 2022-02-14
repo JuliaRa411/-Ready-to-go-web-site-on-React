@@ -56,7 +56,6 @@ body{
   .footer{
     display: flex;
     flex-flow: row wrap;
-    
     position: fixed;
     background-color: black;
     width: 100%;
@@ -94,7 +93,6 @@ body{
   .icons{
     border-radius: 5%;
     background-color: rgba(243, 229, 229, 0.808);
-    
     margin: -7px 5px  ;
     
      }
@@ -188,6 +186,7 @@ body{
     .hide{
       display: none;
     }
+ 
 
     .border2:hover + .hide {
       display: block;
@@ -236,7 +235,7 @@ body{
 .group{
   
   display:flex;
-
+ justify-content: center;
 
 }
 .change{
@@ -270,3 +269,67 @@ body{
   font-family: 'Montaga', serif;
   color: #991919;
  }
+ 
+ .submit{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  
+ }
+ .bookSubmit{
+  background-color: #991919;
+  color:white;
+  font-family: 'Montaga', serif;
+  font-size: 20px;
+  width: 50%;
+  border: none;
+  
+ }
+
+ .contactForm{
+ text-align: center;
+ color: green;
+ font-family: 'Montaga', serif;
+  font-size: 20px;
+  font-weight: bolder;
+ }
+ .submitForm{
+   margin-top: -50px;
+ }
+
+ 
+
+    @media all and (max-width: 500px) {
+      html {
+        font-size: 10px;
+      }
+    
+ 
+.change{
+   
+  font-size: 15px;
+  padding: 10px;
+  margin: 7px ;
+  width: 30%;
+  border: none;
+  
+ }
+      .text{
+        margin-top: -20px;
+      }
+      .name{
+       
+        margin-bottom: 50px;
+      }
+      .features{
+        margin-top:  -30px;
+        text-align: center;
+      }
+      img {
+       
+        width: 400px;
+    
+              }
+
+    
+}

@@ -38,6 +38,7 @@ return (
 <img src={image}  width =" 550px"alt ="car" className="pictires"/>
    <h5 className="text">{text} </h5>
    <h5 className="features ">{features} </h5>
+ 
    </div>
    </div>
 

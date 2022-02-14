@@ -6,12 +6,16 @@ import Buttons from "./Buttons";
 import ContactForm from "./ContactForm";
  
  
- 
 
 function Vehicles(){
 
 const [vehicles, setVehicles] = useState(data);
-const [showMore,setShowMore] = useState(false)
+ const [showMore,setShowMore] = useState(false)
+  
+  
+
+
+ 
  const chosenCars = (searchTerm) => {
  const newCars = data.filter( element => 
  element.searchTerm===searchTerm )
@@ -46,14 +50,17 @@ return (
    <button onClick={() => setShowMore (!showMore)} className ="showMore">{showMore? "Show less" : "Show more"} </button></p>
      </div>
  
+     
+   </div>
+   
  
+   <div  className="submitForm">
+   <ContactForm />
+      </div>
+      </div>
  
-   <div className="book">
-    <button className="bookCar" onClick={() =>  (  <ContactForm/>) }  > { <ContactForm/>}</button>
 
-   </div>
-   </div>
-</div>
+
    
   )
 }

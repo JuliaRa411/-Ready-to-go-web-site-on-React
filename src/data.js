@@ -86,7 +86,7 @@ export const data = [
 { 
     id:10 ,
     name: "Ford Expedition ",
-    image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/SUVS/FFAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1618262941145.png ",
+    car:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/SUVS/FFAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1618262941145.png ",
     searchTerm:"suv",
     text:"Details: Automatic, 7 People, 3 Bags",
     features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning"
