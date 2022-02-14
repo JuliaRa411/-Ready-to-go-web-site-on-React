@@ -5,8 +5,9 @@ export const data = [
     image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/CARS/SCAR.doi.352.high.imageSmallThreeQuarterNodePath.png/1544210775124.png",
     searchTerm:"cars",
     text:  " Details:  Automatic, 5 People, 4 Bags",
-    features:"Features: Bluetooth, Cruise Control, AM/FM, Stereo Radio, Automatic, Air Conditioning"
-    },
+    features:"Features: Bluetooth, Cruise Control, AM/FM, Stereo Radio, Automatic, Air Conditioning",
+    showMore: false
+},
     
     {
     id:2,
@@ -14,7 +15,8 @@ export const data = [
     image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/CARS/CCAR.doi.352.high.imageSmallThreeQuarterNodePath.png/1611777286679.png",
     searchTerm:"cars",
     text: "Details: Automatic, 5 People, 4 Bags",
-    features:"Features: Bluetooth, Cruise Control, AM/FM, Stereo Radio, Automatic, Air Conditioning"
+    features:"Features: Bluetooth, Cruise Control, AM/FM, Stereo Radio, Automatic, Air Conditioning",
+    showMore: false
     },
     
      {
@@ -23,7 +25,8 @@ export const data = [
     image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/CARS/FCAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1618262666996.png",
     searchTerm:"cars",
     text: "Details: Automatic, 5 People, 4 Bags",
-    features: "Features: Bluetooth, Cruise Control, AM/FM, Stereo Radio, Automatic, Air Conditioning"
+    features: "Features: Bluetooth, Cruise Control, AM/FM, Stereo Radio, Automatic, Air Conditioning",
+    showMore: false
     },
     
     {
@@ -32,7 +35,8 @@ export const data = [
     image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/CARS/GXAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1578504136212.png",
     searchTerm:"cars",
     text: "Details: Automatic, 5 People, 3 Bags",
-    features:"Features: Bluetooth, Cruise Control, AM/FM, Stereo Radio, Automatic, Air Conditioning, Leather Interior"
+    features:"Features: Bluetooth, Cruise Control, AM/FM, Stereo Radio, Automatic, Air Conditioning, Leather Interior",
+    showMore: false
     },
 
     {
@@ -42,6 +46,7 @@ export const data = [
     searchTerm:"cars",
     text: "Details: Automatic, 5 People, 5 Bags",
     features:"Features: Bluetooth, Cruise Control, AM/FM, Stereo Radio, Automatic, Air Conditioning",
+    showMore: false
     
     },
     
@@ -52,6 +57,7 @@ export const data = [
     searchTerm:"cars",
     text:"Details: Automatic, 5 People, 3 Bags",
     features:"Features:  AM/FM,  Automatic, Air Conditioning",
+    showMore: false
         },
 
 { 
@@ -61,6 +67,7 @@ export const data = [
         searchTerm:"suv",
         text:"Details: Automatic, 5 People, 3 Bags",
         features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning",
+        showMore: false
             },
       
 { 
@@ -69,7 +76,8 @@ export const data = [
     image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/SUVS/IFAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1618262943657.png",
     searchTerm:"suv",
     text:"Details: Automatic, 5 People, 4 Bags",
-    features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning"
+    features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning",
+    showMore: false
 
             },
 
@@ -80,7 +88,8 @@ export const data = [
     image:" https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/SUVS/SFAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1551905658879.png",
     searchTerm:"suv",
     text:"Details: Automatic, 5 People, 5 Bags",
-    features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning"
+    features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning",
+    showMore: false
             },
               
 { 
@@ -89,7 +98,8 @@ export const data = [
     image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/SUVS/FFAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1618262941145.png ",
     searchTerm:"suv",
     text:"Details: Automatic, 7 People, 3 Bags",
-    features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning"
+    features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning",
+    showMore: false
 
             },
             
@@ -100,7 +110,8 @@ export const data = [
     image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/SUVS/RFAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1557866893467.png ",
     searchTerm:"suv",
     text:"Details: Automatic, 5 People, 4 Bags",
-    features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning"
+    features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning",
+    showMore: false
 
             },
                       
@@ -110,7 +121,8 @@ export const data = [
     image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/SUVS/FJAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1543606103567.png",
     searchTerm:"suv",
     text:"Details: Automatic, 5 People, 5 Bags",
-    features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning"
+    features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning",
+    showMore: false
 
             },
             { 
@@ -119,7 +131,8 @@ export const data = [
                 image:" https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/TRUCKS/SPAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1535121223938.png",
                 searchTerm:"Trucks",
                 text:"Details: Automatic, 4 People, 3 Bags",
-                features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning"
+                features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning",
+                showMore: false
             
                         },
                         
@@ -129,8 +142,8 @@ export const data = [
                             image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/TRUCKS/PPAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1618262983986.png",
                             searchTerm:"Trucks",
                             text:"Details: Automatic, 5 People, 4 Bags",
-                            features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning"
-                        
+                            features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning",
+                            showMore: false
                                     },
 { 
     id:15 ,
@@ -138,7 +151,8 @@ export const data = [
     image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/VANS/MVAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1574880395246.png",
     searchTerm:"Vans",
     text:"Details: Automatic, 7 People, 5 Bags",
-    features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning"
+    features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning",
+    showMore: false
 
             },
        
@@ -148,8 +162,8 @@ export const data = [
             image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/VANS/SKAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1554912447812.png",
             searchTerm:"Vans",
             text:"Details: Automatic, 2 People, 0 Bags",
-            features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning"
-        
+            features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning",
+            showMore: false
                     },
               
                 { 
@@ -158,7 +172,8 @@ export const data = [
                     image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/CARS/LCAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1543605919399.png  ",
                     searchTerm:"Luxury Cars",
                     text:"Details: Automatic, 5 People, 4 Bags",
-                    features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning,Leather Interior"
+                    features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning,Leather Interior",
+                    showMore: false
                 
                             },
                             { 
@@ -167,7 +182,8 @@ export const data = [
                                 image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/CARS/PXAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1618262777268.png",
                                 searchTerm:"Luxury Cars",
                                 text:"Details: Automatic, 5 People, 5 Bags",
-                                features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning,Leather Interior"
+                                features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning,Leather Interior",
+                                showMore: false
                             
                                         },
                                         { 
@@ -176,7 +192,8 @@ export const data = [
                                             image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/CARS/STAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1543605919377.png",
                                             searchTerm:"Luxury Cars",
                                             text:"Details: Automatic, 4 People, 2 Bags",
-                                            features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning,Leather Interior"
+                                            features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning,Leather Interior",
+                                            showMore: false
                                         
                                                     },
                                                     { 
@@ -185,7 +202,8 @@ export const data = [
                                                         image:"https://assets.gcs.ehi.com/content/enterprise_cros/data/vehicle/bookingCountries/CA/CARS/PCAR.doi.768.high.imageSmallThreeQuarterNodePath.png/1574880326763.png",
                                                         searchTerm:"Luxury Cars",
                                                         text:"Details: Automatic, 5 People, 4 Bags",
-                                                        features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning,Leather Interior"
+                                                        features:"Features: Bluetooth, Cruise Control, AM/FM Stereo Radio, Automatic Air Conditioning,Leather Interior",
+                                                        showMore: false
                                                     
                                                                 },
 

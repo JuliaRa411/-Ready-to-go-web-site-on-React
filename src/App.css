@@ -8,31 +8,28 @@ body{
     justify-content:center;
     align-items: center;
     border:none;
-    position: relative;
-    overflow: hidden;
     margin-top: 12px;
    
       }
  
-  .navigation{
-    background: transparent;
-    border: none;
-    position: absolute;
-    z-index: 5;
-  
-  }
-   
-   .btn2{
-    position: absolute;
-    right:230px;
-         } 
- 
-
-  .btn1{
-    position: relative;
-    left: 70px;
-   
-  } 
+      .navigation{
+        background: transparent;
+        border: none;
+         
+      
+      }
+       
+       .btn2{
+        position: absolute;
+        right:230px;
+             } 
+     
+    
+      .btn1{
+        position: relative;
+        left: 70px;
+       
+      } 
 
   nav{
     display: flex;
@@ -121,46 +118,84 @@ body{
       text-align:start;
       flex-direction: column;
      margin-left: 250px;
-   
-      
+        
     
     }
 .container{
-  margin-left: 50px;
-  text-align: center;
-  flex-wrap: wrap;
-  flex-flow: row wrap;
-}
+    
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+    width:100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 15px;
+  } 
+  
     .schedule{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
       margin-top: 50px;
-      display: grid;
-      grid-template-columns: auto auto ;
-      flex-flow: row wrap;
-    }
-      
+
+    } 
     .special{
-      margin-bottom: auto;
-      margin-top: -200px;
-      display: block;
-      flex-direction: column;
-      font-family: 'Montaga', serif;
-      flex-flow: row wrap;
+      display:flex;
+       justify-content: center;
      
     }
  
     .deals{
-    
-      display: grid;
-      grid-template-columns: auto auto auto ;
-      justify-content: center;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+      margin-top: 50px;
     }
 
+
     .container1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:30%;
+     justify-content:space-between;
+      align-items: center;
       flex-wrap: wrap;
-      flex-flow: row wrap;
-      margin-left: 50px;
-      text-align: center;
-      margin: 30px;
+       margin: 15px;
+    }
+    .box2{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+         text-align: start;
+       justify-content:space-between;
+        align-items:flex-start;
+        flex-wrap: wrap;
+         margin: 15px;
+         margin-top: -40px;
+    }
+    .box{
+      
+      align-items: center;
+      flex-wrap: wrap;
+       margin: 15px;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+     
+    }
+    .box3{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: -500px;
+      margin-top: 100px;
+      flex-wrap: wrap;
+     
      
     }
     .border{
@@ -362,13 +397,55 @@ justify-content: center;
  height: auto;
  margin-right: 410px;
  
-}
+} 
+   
+     
+
+    .container1{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width:80%;
+       justify-content:space-between;
+        align-items: center;
+        flex-wrap: wrap;
+         margin: 15px;
+      }
+    .border{
+      background-color: #991919;
+      padding: 15px;
+      width: 100%;
+      font-size: 15px;
+      
+    }
+    .border2{
+      margin-top:  -10px;
+      padding: 5px;
+      width:100%;
+      border: none;
+      color: #991919;
+      font-size: 15px;
+          }
+       
     
-   .btn2{
-    position: absolute;
-    right: 290px;
-      width: 10px;
-    height: 10px;
-         } 
+    .deals{
+     margin-top: -10px;
+    }
+
+.box2, .box3{
+display: none;
+}
+.box{
+      
   
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+ 
+}
+
+        
+  
+    
 }

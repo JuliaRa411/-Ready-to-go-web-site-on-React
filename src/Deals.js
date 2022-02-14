@@ -1,4 +1,5 @@
- function Deals(){
+ 
+function Deals(){
  
     return  (<div className="deals">
     <div className="container1"> 
@@ -32,7 +33,7 @@
     <button  className="border"> Save up to 10% on monthly base rate</button>
       <p>Enjoy savings up to 10% off base rate when you rent a car for a minimum of 28 days or more. Just use AWD at checkout. Discount valid on rentals checked out no later than December 31, 2022.  </p>
       <button className="border2"> See details </button>
-      <div className="hide">Discount CODE: Save monthly</div>
+      <div class="hide">Discount CODE: Save monthly</div>
     </div>
     <div className="container1"> 
     <button  className="border"> Small Business. Big Savings. </button> 

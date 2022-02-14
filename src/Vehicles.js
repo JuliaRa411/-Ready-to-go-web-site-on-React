@@ -10,9 +10,14 @@ import ContactForm from "./ContactForm";
 function Vehicles(){
 
 const [vehicles, setVehicles] = useState(data);
- const [showMore,setShowMore] = useState(false)
+const [showText,setShowText] = useState(false)
   
   
+const showTextClick =(vehicle) => {
+  vehicle.showMore = !vehicle.showMore
+  setShowText(!showText)
+}
+
  const chosenCars = (searchTerm) => {
  const newCars = data.filter( element => 
  element.searchTerm===searchTerm )
@@ -31,7 +36,7 @@ return (
   <div className="products">  
   
 {vehicles.map ((vehicle =>{
-  const {id, name, image,text,features} = vehicle;
+  const {id, name, image,text,features, showMore} = vehicle;
   return(
   
 
@@ -44,7 +49,7 @@ return (
  
    <div className="product-card">
     <p className="features"> {showMore? features:features.substring(0,10) +  "...."} 
-   <button onClick={() => setShowMore (!showMore)} className ="showMore">{showMore? "Show less" : "Show more"} </button></p>
+   <button onClick={() => showTextClick (vehicle)} className ="showMore">{showMore? "Show less" : "Show more"} </button></p>
      </div>
  
      </div>
