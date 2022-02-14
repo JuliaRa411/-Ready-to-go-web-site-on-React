@@ -179,7 +179,7 @@ body{
       
       align-items: center;
       flex-wrap: wrap;
-       margin: 15px;
+       margin: 5px;
       justify-content: center;
       flex-direction: column;
       align-items: center;
@@ -187,17 +187,18 @@ body{
      
     }
     .box3{
-      display: flex;
-      justify-content:space-between;
+      
       align-items: center;
+      flex-wrap: wrap;
+       margin: -0px;
+       margin-top: 50px;
       justify-content: center;
       flex-direction: column;
-      margin-left: -500px;
-      margin-top: 100px;
+      align-items: center;
       flex-wrap: wrap;
      
-     
     }
+   
     .border{
       background-color: #991919;
       padding: 20px;
@@ -361,6 +362,19 @@ justify-content: center;
  .order{
    margin-top: -50px;
  }
+ 
+ .special{
+  
+  background-color: #991919;
+  color:white;
+  font-family: 'Montaga', serif;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: -50px;
+  width: 100%;
+  border: none;
+   }
+   
     @media all and (max-width: 500px) {
       html {
         font-size: 10px;

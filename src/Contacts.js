@@ -6,15 +6,21 @@ function Contacts(){
  <p> Monday - Friday     8:00 AM - 5:00 PM</p>
 <p>Saturday  9:00 AM - 4:00 PM   </p>
 <p> Sunday  Closed  </p>
- </div>
 
- <div className="box3"> 
-  <h2> Hours </h2> 
- <p> Monday - Friday     8:00 AM - 5:00 PM</p>
-<p>Saturday  9:00 AM - 4:00 PM   </p>
-<p> Sunday  Closed  </p>
+ <div className="box"> 
+
+  <ul className="box3">
+  <button className="special"> Special Services </button>
+   <li>  Child Seat </li>
+   <li>  Hand Controls</li>
+   <li> Booster Seats</li>
+   <li>After hours drop off available</li>
+   <li>After hours drop off available</li>
+   <li> Infant Seat</li>
+   
+  </ul>
  </div>
- 
+ </div>
  <div className="schedule">
 <div className="box2">
         <h2> 2022 Holiday Hours:</h2>
