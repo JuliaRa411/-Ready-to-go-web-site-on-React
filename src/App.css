@@ -184,20 +184,15 @@ body{
       flex-direction: column;
       align-items: center;
       flex-wrap: wrap;
-     
-    }
+         }
+        
     .box3{
-      
       align-items: center;
       flex-wrap: wrap;
-       margin: -20px;
-       margin-top: 20px;
+       margin: 5px;
       justify-content: center;
       flex-direction: column;
-      align-items: center;
-      flex-wrap: wrap;
-     
-    }
+       }
    
     .border{
       background-color: #991919;
@@ -379,22 +374,16 @@ justify-content: center;
       html {
         font-size: 10px;
       }
-    
- .box3{
-  font-family: 'Montaga', serif;
-  font-size: 15px;
-     }
+  
   
   
 .change{
-   
   font-size: 15px;
   padding: 10px;
   margin: 7px ;
   width: 30%;
   border: none;
-  
- }
+  }
       .text{
         margin-top: -20px;
       }
@@ -455,16 +444,20 @@ justify-content: center;
 display: none;
 }
 .box{
-      
-  
-  flex-wrap: wrap;
+   flex-wrap: wrap;
   width: 100%;
   text-align: center;
   flex-direction: column;
- 
-}
+ }
 
-        
+   .box3{
+    flex-wrap: wrap;
+    width: 75%;
+    text-align: center;
+    flex-direction: column;
+    font-size: 15px;
+    
+   }     
   
     
 }
