@@ -13,9 +13,6 @@ const [vehicles, setVehicles] = useState(data);
  const [showMore,setShowMore] = useState(false)
   
   
-
-
- 
  const chosenCars = (searchTerm) => {
  const newCars = data.filter( element => 
  element.searchTerm===searchTerm )
@@ -50,16 +47,11 @@ return (
    <button onClick={() => setShowMore (!showMore)} className ="showMore">{showMore? "Show less" : "Show more"} </button></p>
      </div>
  
-     
-   </div>
-   
- 
-   <div  className="submitForm">
+     </div>
+   <div className="order">
    <ContactForm />
       </div>
       </div>
- 
-
 
    
   )
