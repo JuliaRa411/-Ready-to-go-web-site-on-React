@@ -380,7 +380,12 @@ justify-content: center;
         font-size: 10px;
       }
     
- 
+ .box3{
+  font-family: 'Montaga', serif;
+  font-size: 15px;
+     }
+  
+  
 .change{
    
   font-size: 15px;
@@ -446,7 +451,7 @@ justify-content: center;
      margin-top: -10px;
     }
 
-.box2, .box3{
+.box2 {
 display: none;
 }
 .box{
