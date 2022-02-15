@@ -220,6 +220,7 @@ img {
       flex-direction: column;
       align-items: center;
       flex-wrap: wrap;
+      margin-top: 50px;
          }
         
     .box3{
@@ -228,6 +229,7 @@ img {
        margin: 5px;
       justify-content: center;
       flex-direction: column;
+  
        }
    
     .border{
@@ -475,11 +477,7 @@ justify-content: center;
         width: 400px;
     
               }
- 
-   
-     
-
-    .container1{
+     .container1{
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -518,6 +516,7 @@ display: none;
   width: 100%;
   text-align: center;
   flex-direction: column;
+  margin-top: 50px;
  }
 
    .box3{
@@ -546,4 +545,12 @@ display: none;
     font-style: italic;
     font-weight: 100;
   }
+
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 70px;
+  }
+  
 }    
