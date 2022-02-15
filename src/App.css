@@ -369,6 +369,31 @@ justify-content: center;
   width: 100%;
   border: none;
    }
+
+   button {
+    appearance: auto;
+    -webkit-writing-mode: horizontal-tb !important;
+     text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
    
     @media all and (max-width: 500px) {
       html {
@@ -400,12 +425,7 @@ justify-content: center;
         width: 400px;
     
               }
-#slide{
- width: 390px;
- height: auto;
- margin-right: 410px;
  
-} 
    
      
 

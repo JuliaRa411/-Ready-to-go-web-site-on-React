@@ -39,11 +39,11 @@ function Logic() {
     
     <div className="banner">
         
-     <button   onClick={prevPhoto} > Previous</button>
+     <button className="previous"  onClick={prevPhoto} > Previous</button>
 
-     <img id="slide"  src={image}  width = "800px" height="500px"  alt='car'/> 
+     <img  src={image}  width = "800px" height="500px"  alt='car'/> 
             
-    <button  onClick= {nextPhoto}> Next </button>
+    <button className="next"  onClick= {nextPhoto}> Next </button>
    
     </div> 
     </div>
