@@ -35,15 +35,15 @@ function Logic() {
      
 
       <div>
-    <Quotes/>
+           <Quotes/>
     
     <div className="banner">
         
-     <button className="previous"  onClick={prevPhoto} > Previous</button>
+     <button  className='navigation btn1' onClick={prevPhoto} ><img src ={left}  width ="70px"  height ="70px"alt =""/> </button>
 
-     <img  src={image}  width = "800px" height="500px"  alt='car'/> 
+     <img id="slide"  src={image}  width = "800px" height="500px"  alt='car'/> 
             
-    <button className="next"  onClick= {nextPhoto}> Next </button>
+    <button className='navigation btn2' onClick= {nextPhoto}> <img src ={right}  width ="70px"  height ="70px"alt =" " /> </button>
    
     </div> 
     </div>

@@ -2,35 +2,34 @@ body{
   background-color: rgba(10, 9, 9, 0.048);
   margin: 0;
 }
-   
- .banner{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    border:none;
-    margin-top: 12px;
-   
-      }
- 
-      .navigation{
-        background: transparent;
-        border: none;
-         
-      
-      }
-       
-       .btn2{
-        position: absolute;
-        right:230px;
-             } 
-     
     
-      .btn1{
-        position: relative;
-        left: 70px;
-       
-      } 
+ .banner{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border:none;
+  margin-top: 12px;
+ 
+    }
 
+    .navigation{
+      background: transparent;
+      border: none;
+       
+    
+    }
+     
+     .btn2{
+      position: absolute;
+      right:230px;
+           } 
+   
+  
+    .btn1{
+      position: relative;
+      left: 70px;
+     
+    } 
   nav{
     display: flex;
     justify-content:space-around;
@@ -396,6 +395,20 @@ justify-content: center;
 }
    
     @media all and (max-width: 500px) {
+
+
+
+      
+.mainScreen{
+  display: block;
+  justify-content: center;
+ 
+}
+.btn2{
+  display: flex;
+  justify-content: center;
+}
+
       html {
         font-size: 10px;
       }
