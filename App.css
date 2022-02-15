@@ -76,9 +76,12 @@ body{
   font-size: 18px; 
   text-transform: uppercase;
   
+}
 
- }
-   h4{
+h5{
+  color: white;
+}
+h4{
     color: white;
     font-family: 'Montaga', serif;
     font-size: 15px;

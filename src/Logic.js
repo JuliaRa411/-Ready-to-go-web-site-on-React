@@ -46,6 +46,7 @@ function Logic() {
     <button className='navigation btn2' onClick= {nextPhoto}> <img src ={right}  width ="70px"  height ="70px"alt =" " /> </button>
    
     </div> 
+   
     </div>
           )  
 

@@ -75,9 +75,7 @@ body{
   font-family: 'Montaga', serif;
   font-size: 18px; 
   text-transform: uppercase;
-  
-
- }
+   }
    h4{
     color: white;
     font-family: 'Montaga', serif;
@@ -86,6 +84,13 @@ body{
     margin-top: 5px;
    }
    
+   span{font-family: 'Montaga', serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 100;
+    margin-left: 200px;
+
+   }
   .icons{
     border-radius: 5%;
     background-color: rgba(243, 229, 229, 0.808);
