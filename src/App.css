@@ -83,12 +83,14 @@ body{
     font-size: 15px;
     align-items: flex-start;
     margin-top: 5px;
+   
    }
    
    span{font-family: 'Montaga', serif;
     font-size: 15px;
     font-style: italic;
     font-weight: 100;
+margin-left: 400px;
     
 
    }
