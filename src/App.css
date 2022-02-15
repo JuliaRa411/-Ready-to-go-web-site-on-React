@@ -1,6 +1,14 @@
 body{
   background-color: rgba(10, 9, 9, 0.048);
   margin: 0;
+
+}
+
+.style{
+  color: #991919;
+  font-family: 'Montaga', serif;
+  font-size: 15px;
+  font-weight: bold;
 }
 img {
  vertical-align: middle;

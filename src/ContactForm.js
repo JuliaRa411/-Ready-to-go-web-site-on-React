@@ -15,6 +15,7 @@ function ContactForm() {
         id="email"
         type="email" 
         name="email"
+        placeholder='email'  className='style'
       />
       </div>
       <div className="submit">
@@ -23,9 +24,10 @@ function ContactForm() {
         field="email"
         errors={state.errors}
       />
-      <textarea
+      <textarea  
         id="message"
         name="message"
+        placeholder='message' className='style'
       />
       </div>
       <div > 
