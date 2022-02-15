@@ -1,7 +1,7 @@
 import {useState } from "react";
 import {mainscreen} from './mainscreen'
-import left from './left.png'
-import right from './right.png'
+ 
+ 
 import Quotes from "./Quotes";
  
  
@@ -37,19 +37,17 @@ function Logic() {
       <div>
            <Quotes/>
     
-    <div className="banner">
-        
-     <button  className='navigation btn1' onClick={prevPhoto} ><img src ={left}  width ="70px"  height ="70px"alt =""/> </button>
+    <div className="slideshow-container">
+    <div className="mySlides fade">
+    <img  src={image}  width ="100%" alt='car'/> 
+     </div> 
 
-     <img id="slide"  src={image}  width = "800px" height="500px"  alt='car'/> 
-            
-    <button className='navigation btn2' onClick= {nextPhoto}> <img src ={right}  width ="70px"  height ="70px"alt =" " /> </button>
-   
-    </div> 
-   
+     <button  className='prev' onClick={prevPhoto} > ❮ </button>
+     <button className='next' onClick= {nextPhoto}>  ❯ </button>
+ 
+    </div>
     </div>
 
-  
           )  
 
    

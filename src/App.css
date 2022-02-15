@@ -2,34 +2,63 @@ body{
   background-color: rgba(10, 9, 9, 0.048);
   margin: 0;
 }
-    
- .banner{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  border:none;
-  margin-top: 12px;
- 
-    }
+img {
+ vertical-align: middle;
+}
 
-    .navigation{
-      background: transparent;
-      border: none;
-       
-    
-    }
-     
-     .btn2{
-      position: absolute;
-      right:230px;
-           } 
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  border: none;
+  background: white;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color:   #991919;
+}
    
-  
-    .btn1{
-      position: relative;
-      left: 70px;
-     
-    } 
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+ 
   nav{
     display: flex;
     justify-content:space-around;
@@ -90,7 +119,7 @@ body{
     font-size: 15px;
     font-style: italic;
     font-weight: 100;
-margin-left: 400px;
+    margin-left: 400px;
     
 
    }

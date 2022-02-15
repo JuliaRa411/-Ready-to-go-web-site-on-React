@@ -249,6 +249,11 @@ h4{
 
 
 @media all and (max-width: 500px) {
+
+/* On smaller screens, decrease text size */
+.prev, .next,.text {font-size: 11px}
+ 
+ 
   html {
     font-size: 10px;
   }
