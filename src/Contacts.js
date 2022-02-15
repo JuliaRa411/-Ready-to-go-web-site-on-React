@@ -1,25 +1,35 @@
+import {useState} from "react"
 function Contacts(){
+ const [services, setServises] = useState(true)
+ const showServices =() =>{
+setServises( !services)
+ }
  
-    return ( <div className="schedule">
-<div className="box"> 
-  <h2> Hours of Operation</h2> 
- <p> Monday - Friday     8:00 AM - 5:00 PM</p>
+ 
+ 
+ return ( <div className="schedule">
+<div className="box">
+<h2> Hours of Operation</h2>
+<p> Monday - Friday     8:00 AM - 5:00 PM</p>
 <p>Saturday  9:00 AM - 4:00 PM   </p>
 <p> Sunday  Closed  </p>
-
- <div className="box"> 
-
  
-  <button className="services"> Special Services </button>
-  <ul className="box3">
-   <li>  Child Seat </li>
-   <li>  Hand Controls</li>
-   <li> Booster Seats</li>
-   <li>After hours drop off available</li>
-   <li>After hours drop off available</li>
-   <li> Infant Seat</li>
-   
+ <div className="box">
+ 
+ <button  onClick={() => showServices()} className ="get"> Special Services</button>
+ <p className="display"> {services}</p>
+ {services? ("") :(
+         
+ <ul className="box3">
+ <li> Child Seat </li>
+ <li> Hand Controls</li>
+ <li> Booster Seats</li>
+  <li>After hours drop off available</li>
+  <li>After hours drop off available</li>
+  <li> Infant Seat</li>
   </ul>
+     )
+ }
  </div>
  </div>
  <div className="schedule">
@@ -38,11 +48,12 @@ function Contacts(){
   </div>
  </div>
     </div>
-
-
+ 
+ 
  
 )
 }
  
  
 export default Contacts ;
+
